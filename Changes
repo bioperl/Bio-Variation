@@ -2,6 +2,7 @@ Summary of important user-visible changes for Bio-Variation
 -----------------------------------------------------------
 
 {{$NEXT}}
+  * Remove Bio::DB::EMBL and Bio::DB::NCBIHelper dependencies, which cause a circular dependency (see issue #3)
 
 1.7.4     2019-12-07 16:56:21-06:00 America/Chicago
   * Add named module (very simple for now)
